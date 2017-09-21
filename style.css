@@ -1,0 +1,20 @@
+
+
+
+ol {
+list-style-type: upper-roman; /* decimal lower-alpha upper-alpha lower-roman none */
+list-style-position: inside; /* outside - umiejscowienie wypunktowania */
+list-style-image: url(icon.png) } /* wstawianie obrazka za punkt */
+
+/* ul {
+list-style-type: circle; } */ /* disc square */
+
+ul, li {
+list-style-type: none;
+display: block;
+margin: 0;
+padding: 0;}
+
+ul li {
+background: url(punkt.jpg) no-repeat left top;
+padding-left: 50px;}
